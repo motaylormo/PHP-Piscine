@@ -1,0 +1,27 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   doft.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mtaylor <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/03/26 14:57:29 by mtaylor           #+#    #+#             */
+/*   Updated: 2019/03/26 14:57:31 by mtaylor          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+.wrapper {
+	display: grid;
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+	grid-template-columns: auto 1045px auto;
+	margin: auto;
+}
+
+#allboxes {
+	background: #909090;
+	border-radius: 0.6vw;
+	box-shadow: .7vw .7vw .5vw;
+	padding: 10px;
+	min-width: 120px;
+}
