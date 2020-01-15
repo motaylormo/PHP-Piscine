@@ -15,14 +15,20 @@
 <li>-[x] ex03</li>
     </ul></td>
     <td><ul>
+<li>-[ ] ex00</li>
+    </ul></td>
+    <td><ul>
 <li>-[x] ex00</li>
 <li>-[x] ex01</li>
 <li>-[x] ex02</li>
 <li>-[x] ex03</li>
     </ul></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><ul>
+<li>-[ ] ex00</li>
+    </ul></td>
+    <td><ul>
+<li>-[ ] ex00</li>
+    </ul></td>
   </tr>
   <tr>
       <th>Day05</th>
@@ -32,10 +38,20 @@
       <th>Day09</th>
   </tr>
   <tr valign="top">
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td><ul>
+<li>-[ ] ex00</li>
+    </ul></td>
+    <td><ul>
+<li>-[ ] ex00</li>
+    </ul></td>
+    <td><ul>
+<li>-[ ] ex00</li>
+    </ul></td>
+    <td><ul>
+<li>-[ ] ex00</li>
+    </ul></td>
+    <td><ul>
+<li>-[ ] ex00</li>
+    </ul></td>
   </tr>
 </table>
