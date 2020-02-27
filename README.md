@@ -11,25 +11,25 @@
     <td><ul>
 <li>-[x] ex00</li>
 <li>-[x] ex01</li>
-      <li>-[x] ex02 <sub>map area tags</sub></li>
-      <li>-[x] ex03 <sub>responsive sizing</sub></li>
-      <li>-[ ] ex04 <sub>drop-down menu</sub></li>
+<li>-[x] ex02</li>
+<li>-[x] ex03</li>
+<li>-[x] ex04</li>
 <li>-[ ] ex05</li>
     </ul></td>
     <td><ul>
-      <li>-[ ] ex00 <sub>Hello World</sub></li>
-<li>-[ ] ex01</li>
-<li>-[ ] ex02</li>
-<li>-[ ] ex03</li>
-<li>-[ ] ex04</li>
-<li>-[ ] ex05</li>
-<li>-[ ] ex06</li>
-<li>-[ ] ex07</li>
-<li>-[ ] ex08</li>
-<li>-[ ] ex09</li>
-<li>-[ ] ex10</li>
-<li>-[ ] ex11</li>
-<li>-[ ] ex12</li>
+<li>-[x] ex00</li>
+<li>-[x] ex01</li>
+<li>-[x] ex02</li>
+<li>-[x] ex03</li>
+<li>-[x] ex04</li>
+<li>-[x] ex05</li>
+<li>-[x] ex06</li>
+<li>-[x] ex07</li>
+<li>-[x] ex08</li>
+<li>-[x] ex09</li>
+<li>-[x] ex10</li>
+<li>-[x] ex11</li>
+<li>-[x] ex12</li>
 <li>-[ ] ex13</li>
     </ul></td>
     <td><ul>
@@ -37,7 +37,7 @@
 <li>-[x] ex01</li>
 <li>-[x] ex02</li>
 <li>-[x] ex03</li>
-<li>-[ ] ex04</li>
+<li>-[x] ex04</li>
 <li>-[ ] ex05</li>
 <li>-[ ] ex06</li>
     </ul></td>
