@@ -1,0 +1,44 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* hide */
+.dropdown li {
+  display: none;
+}
+
+/* show */
+.dropdown:hover li {
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "pic blurb"
+    "pic price";
+  justify-items: stretch;
+  align-items: center;
+  margin: 0.5em 0;
+  width: 300px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+}
+
+/* position info within tab */
+.dropdown li img {
+  grid-area: pic;
+  width: 100px;
+  height: 100%;
+  object-fit: cover;
+}
+.dropdown li p:first-of-type {
+  grid-area: price;
+  margin: 0;
+  padding-bottom: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+.dropdown li p:last-of-type {
+  grid-area: blurb;
+  margin: 0;
+  padding: 1em;
+}

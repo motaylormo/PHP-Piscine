@@ -1,0 +1,66 @@
+body {
+	background-image: url(https://media.buzzle.com/media/images-en/gallery/arts/crafts/1200-491612219-honeycomb-pattern.jpg);
+}
+
+table {
+	display: grid;
+	font-family: sans-serif;
+	font-size: 1vw;
+	padding-right: 1em;
+	margin: auto;
+	counter-reset: atomic_number;
+	text-align: center;
+}
+
+.num {
+	font-style: italic;
+	padding: 0.5em;
+	text-shadow: .2vw .2vw .5vw;
+}
+
+.extension {
+	border: 1px solid black;
+	font-family: serif;
+	font-style: italic;
+	transform: rotate(25deg);
+}
+
+td:not(:empty) {
+	border: 0.1em solid black;
+	box-shadow: 0.7em 0.7em 0.5em;
+	width: 5vw;
+	height: 5vw;
+}
+
+.elem {
+	font-size: 2em;
+	font-style: bold;
+	position: relative;
+
+}
+.elem::before {
+	counter-increment: atomic_number;
+	content: counter(atomic_number);
+	font-size: 0.4em;
+	position: absolute;
+	bottom: 0.1em;
+	left: 0.2em;
+}
+.elem::after {
+	content: attr(atomic_weight);
+	font-size: 0.4em;
+	position: absolute;
+	top: 0.1em;
+	right: 0.2em;
+}
+
+#noble_gas				{ background: #DFBD1C; }
+#alkali_metal			{ background: #e5593f; }
+#alkaline_earth_metal	{ background: #0D7EAB; }
+#metalloid				{ background: #BF636F; }
+#reactive_nonmetal		{ background: #CBC8E3; }
+#transition_metal		{ background: #99D7F0; }
+#post-transition_metal	{ background: #C5DE8A; }
+#lanthanide				{ background: #ECCA9B; }
+#actinide				{ background: #DA8659; }
+#unknown				{ background: gray; }

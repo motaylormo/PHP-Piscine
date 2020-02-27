@@ -1,0 +1,15 @@
+.wrapper {
+	display: grid;
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+	grid-template-columns: auto 1045px auto;
+	margin: auto;
+}
+
+#allboxes {
+	background: #909090;
+	border-radius: 0.6vw;
+	box-shadow: .7vw .7vw .5vw;
+	padding: 10px;
+	min-width: 120px;
+}
