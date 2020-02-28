@@ -47,8 +47,8 @@
 <li>-[x] ex02</li>
 <li>-[x] ex03</li>
 <li>-[x] ex04</li>
-<li>-[ ] ex05</li>
-<li>-[ ] ex06</li>
+<li>-[x] ex05</li>
+<li>-[x] ex06</li>
     </ul></td>
     <td><ul>
 <li>-[ ] ex00</li>
