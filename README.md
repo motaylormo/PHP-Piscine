@@ -42,7 +42,7 @@
 <li>-[ ] ex06</li>
     </ul></td>
     <td><ul>
-<li>-[x] [ex00](https://elearning.intra.42.fr/notions/piscine-php-d03-pamp/subnotions/piscine-php-d03-bitnami-mamp-bitnami-mamp/videos/pamp)</li>
+<li>-[x] <a href="https://elearning.intra.42.fr/notions/piscine-php-d03-pamp/subnotions/piscine-php-d03-bitnami-mamp-bitnami-mamp/videos/pamp">ex00</a></li>
 <li>-[x] ex01</li>
 <li>-[x] ex02</li>
 <li>-[x] ex03</li>
