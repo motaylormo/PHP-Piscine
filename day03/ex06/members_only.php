@@ -1,7 +1,7 @@
 <?php	//if authorized
 	if ($_SERVER['PHP_AUTH_USER'] == "zaz" &&
 		$_SERVER['PHP_AUTH_PW'] == "Ilovemylittleponey"):
-	// this kind of if setup: https://stackoverflow.com/questions/4731810/if-else-embedding-inside-html/4731827
+	// this kind of setup: https://stackoverflow.com/questions/4731810/if-else-embedding-inside-html/4731827
 ?>
 <html><body>
 Hello Zaz<br />
