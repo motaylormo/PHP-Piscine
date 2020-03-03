@@ -1,0 +1,26 @@
+<html>
+<style>
+	form {
+		display: grid;
+		grid-template-columns: min-content auto;
+		min-width: max-content;
+		max-width: 50vw;
+	}
+
+	form input[type="submit"] {
+		grid-column: auto / span 2;
+	}
+</style>
+
+<body>
+<form method="POST" action="./create.php">
+	<label for="login">Username:</label>
+	<input type="text" name="login"/>
+
+	<label for="passwd">Password:</label>
+	<input type="password" name="passwd"/>
+
+	<input type="submit" name="submit" value="OK">
+</form>
+</body>
+</html>
