@@ -30,14 +30,14 @@ class Vertex
 			$this->color = new Color(['red' => 255, 'green' => 255, 'blue' => 255]);
 
 		if (Self::$verbose)
-			echo $this->__toString()." constructed".PHP_EOL;
+			echo $this." constructed".PHP_EOL;
 		return true;
 	}
 
 	public function	__destruct()
 	{
 		if (Self::$verbose)
-			echo $this->__toString()." destructed".PHP_EOL;
+			echo $this." destructed".PHP_EOL;
 	}
 
 	public function	__toString()
@@ -47,7 +47,7 @@ class Vertex
 			.", z:".number_format($this->z, 2)
 			.", w:".number_format($this->w, 2);
 		if (Self::$verbose)
-			$str = $str.", ".$this->color->__toString();
+			$str = $str.", ".$this->color;
 		return "Vertex( ".$str." )";
 	}
 
