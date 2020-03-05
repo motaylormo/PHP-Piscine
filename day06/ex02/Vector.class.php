@@ -22,22 +22,22 @@ class Vector
 		$this->_w = 0;
 
 		if (Self::$verbose)
-			echo $this->__toString()." constructed".PHP_EOL;
+			echo $this." constructed".PHP_EOL;
 		return true;
 	}
 
 	public function	__destruct()
 	{
 		if (Self::$verbose)
-			echo $this->__toString()." destructed".PHP_EOL;
+			echo $this." destructed".PHP_EOL;
 	}
 
 	public function	__toString()
 	{
-		$str = "x: ".number_format($this->_x, 2, '.', '')//no commas
-			.", y: ".number_format($this->_y, 2, '.', '')
-			.", z: ".number_format($this->_z, 2, '.', '')
-			.", w: ".number_format($this->_w, 2, '.', '');
+		$str = "x:".number_format($this->_x, 2, '.', '')//no commas
+			.", y:".number_format($this->_y, 2, '.', '')
+			.", z:".number_format($this->_z, 2, '.', '')
+			.", w:".number_format($this->_w, 2, '.', '');
 		return "Vector( ".$str." )";
 	}
 
