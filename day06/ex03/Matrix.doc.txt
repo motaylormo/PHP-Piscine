@@ -1,0 +1,31 @@
+<- Matrix ----------------------------------------------------------------------
+
+The class provides the following presets:
+
+new Matrix( array( 'preset' => Matrix::IDENTITY ) )
+new Matrix( array( 'preset' => Matrix::SCALE,
+                    'scale' => float $scale ) )
+new Matrix( array( 'preset' => Matrix::RX,
+                    'angle' => float $angle ) )
+new Matrix( array( 'preset' => Matrix::RY,
+                    'angle' => float $angle ) )
+new Matrix( array( 'preset' => Matrix::RZ,
+                    'angle' => float $angle ) )
+new Matrix( array( 'preset' => Matrix::TRANSLATION,
+                      'vtc' => Vector $vtc ) )
+new Matrix( array( 'preset' => Matrix::PROJECTION,
+                      'fov' => float $angle,
+                    'ratio' => float $angle,
+                     'near' => float $angle,
+                      'far' => float $angle ) );
+
+
+The class provides the following methods:
+
+Matrix	mult( Matrix $rhs )
+returns the multiplication of both matrices.
+
+Vertex	transformVertex( Vertex $vtx )
+returns a new vertex resulting from the transformation of the vertex by the matrix.
+
+---------------------------------------------------------------------- Matrix ->
