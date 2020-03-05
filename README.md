@@ -109,6 +109,7 @@
 <li>-[x] ex06</li>
     </ul></td>
     <td><ul>
+<li>-[ ] ex00</li>
     </ul></td>
     <td><ul>
 <li>-[ ] ex00</li>
