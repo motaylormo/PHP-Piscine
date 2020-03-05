@@ -36,14 +36,14 @@ class Color
 //	$this->red = filter_var($arr['red'], FILTER_VALIDATE_INT, $options);
 
 		if (Self::$verbose)
-			echo $this->__toString()." constructed.".PHP_EOL;
+			echo $this." constructed.".PHP_EOL;
 		return true;
 	}
 
 	public function	__destruct()
 	{
 		if (Self::$verbose)
-			echo $this->__toString()." destructed.".PHP_EOL;
+			echo $this." destructed.".PHP_EOL;
 	}
 
 	public function	__toString()
