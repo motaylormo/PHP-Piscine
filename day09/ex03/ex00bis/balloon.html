@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery!balloon</title>
+	<style>
+		#balloon {
+			background-color: red;
+			color: red;
+			border-radius: 100%;
+			width: 200px;
+			height: 200px;
+			margin: auto;
+			position: relative;
+			text-align: center;
+		}
+		#balloon::after {
+			content: "▲";
+			display: block;
+			text-align: center;
+			width: 100%;
+			position: absolute;
+			bottom: -12px;
+			font-size: 20px;
+		}
+	</style>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+	<div id="balloon"></div>
+
+	<script>
+		function AlterBalloon(event)
+		{
+		//size
+			size = size + event.data.inc;
+			if (size > 420 || size < 200)
+				size = 200;
+			$(event.target).css("width", size + "px");
+			$(event.target).css("height", size + "px");
+		//color
+			if (event.data.inc > 0)
+				colors.push(colors.shift());
+			if (event.data.inc < 0)
+				colors.unshift(colors.pop());
+			$(event.target).css("background-color", colors[0]);
+			$(event.target).css("color", colors[0]);//balloon tie
+		}
+		colors = ["red", "green", "blue"];
+		size = 200;
+
+		$(document).ready(function() {
+			balloon = $("#balloon");
+			balloon.click({inc: 10}, AlterBalloon);
+			balloon.mouseleave({inc: -5}, AlterBalloon);
+		});
+	</script>
+</body>
+</html>

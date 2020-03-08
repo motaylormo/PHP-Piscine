@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>balloon</title>
+	<style>
+		#balloon {
+			background-color: red;
+			color: red;
+			border-radius: 100%;
+			width: 200px;
+			height: 200px;
+			margin: auto;
+			position: relative;
+			text-align: center;
+		}
+		#balloon::after {
+			content: "▲";
+			display: block;
+			text-align: center;
+			width: 100%;
+			position: absolute;
+			bottom: -12px;
+			font-size: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="balloon"></div>
+
+	<script>
+		function Resize(change, balloon)
+		{
+			Resize.size = Resize.size + change;
+			if (Resize.size > 420 || Resize.size < 200)
+				Resize.size = 200;
+			balloon.style.width = Resize.size + "px";
+			balloon.style.height = Resize.size + "px";
+
+			if (change > 0)
+				Resize.colors.push(Resize.colors.shift());
+			else if (change < 0)
+				Resize.colors.unshift(Resize.colors.pop());
+			balloon.style.backgroundColor = Resize.colors[0];
+			balloon.style.color = Resize.colors[0];//balloon tie
+		}
+		Resize.colors = ['red', 'green', 'blue'];
+		Resize.size = 200;
+
+		let balloon = document.getElementById("balloon");
+
+		balloon.addEventListener("click", function(){
+			Resize(10, balloon);
+		});
+
+		balloon.addEventListener("mouseleave", function(){
+			Resize(-5, balloon);
+		});
+	</script>
+</body>
+</html>
