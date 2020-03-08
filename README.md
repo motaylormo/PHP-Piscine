@@ -112,10 +112,10 @@
 <li>-[ ] ex00</li>
     </ul></td>
     <td><ul>
-<li>-[ ] ex00</li>
-<li>-[ ] ex01</li>
-<li>-[ ] ex02</li>
-<li>-[ ] ex03</li>
+<li>-[x] ex00</li>
+<li>-[x] ex01</li>
+<li>-[x] ex02</li>
+<li>-[x] ex03</li>
 <li>-[ ] ex04</li>
     </ul></td>
   </tr>
